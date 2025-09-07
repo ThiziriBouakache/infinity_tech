@@ -1,0 +1,120 @@
+.project-details {
+    padding: 100px 0;
+  }
+  
+  .project-header {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  
+  .project-title {
+    font-size: 2.5rem;
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+  }
+  
+  .project-year {
+    display: inline-block;
+    padding: 0.3rem 1.2rem;
+    background: var(--light-pink);
+    color: var(--accent-color);
+    border-radius: 30px;
+    font-weight: 600;
+  }
+  
+  .project-content {
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 4rem;
+  }
+  
+  .project-image {
+    flex: 1;
+    border-radius: var(--rounded-md);
+    overflow: hidden;
+    box-shadow: var(--hard-shadow);
+  }
+  
+  .project-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .project-info {
+    flex: 1;
+  }
+  
+  .project-description {
+    margin-bottom: 2rem;
+    line-height: 1.8;
+    color: var(--dark);
+    opacity: 0.9;
+  }
+  
+  .project-links {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+  }
+  
+  .project-tag {
+    padding: 0.5rem 1.2rem;
+    background: var(--light-pink);
+    color: var(--accent-color);
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  
+  .project-details-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .project-long-description {
+    margin-bottom: 3rem;
+    line-height: 1.8;
+    color: var(--dark);
+    opacity: 0.9;
+  }
+  
+  .features-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--accent-color);
+  }
+  
+  .features-list {
+    list-style: none;
+  }
+  
+  .feature-item {
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+    position: relative;
+    line-height: 1.6;
+  }
+  
+  .feature-icon {
+    position: absolute;
+    left: 0;
+    color: var(--primary-color);
+    font-weight: bold;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .project-content {
+      flex-direction: column;
+    }
+    
+    .project-title {
+      font-size: 2rem;
+    }
+  }

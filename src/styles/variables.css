@@ -1,0 +1,22 @@
+:root {
+    /* Couleurs girly */
+    --primary-color: #ff6b9d;
+    --secondary-color: #ffb6c1;
+    --accent-color: #d45079;
+    --light-pink: #ffdfeb;
+    --white: #fff9fb;
+    --dark: #3a2e39;
+    
+    /* Polices */
+    --title-font: 'Playfair Display', serif;
+    --body-font: 'Poppins', sans-serif;
+    
+    /* Ombres */
+    --soft-shadow: 0 4px 20px rgba(255, 107, 157, 0.2);
+    --hard-shadow: 0 8px 30px rgba(212, 80, 121, 0.3);
+    
+    /* Bordures */
+    --rounded-sm: 8px;
+    --rounded-md: 16px;
+    --rounded-lg: 24px;
+  }
